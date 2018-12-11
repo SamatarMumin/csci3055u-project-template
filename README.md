@@ -10,15 +10,22 @@ using aggressive type interferce, meaning it can tell what type of data a functi
 Kotlin uses aggressive type interferce, meaning it can tell what type of data a function is using based on the and how its being used.
 This language is very smilar to the popular Java.
 >
-# History
+History:
 > - Created by Jetbrains the founders of intelij, Kotlin was founded in 2012 
-> - Name "Kotlin" comes from the island near St.Petersburg. One of the goals was to have a compile time that can rival Java
+> - Name "Kotlin" comes from the island near St.Petersburg. 
+> - One of the goals was to have a compile time that can rival Java
+Interesting features:
+> - Kotlin is completely open source
+> - No Runtime overhead
+> - Contains own Null safety
+> - Can complie JavaScript
+>- Uses Java Class libraries
 
 ## About the syntax
 
 > _give some code snippet of the language_
 
-*Let form*
+*If form*
 
 ```Kotlin
 fun main(args : Array<String>){
@@ -36,7 +43,8 @@ fun main(args : Array<String>){
 
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+> Java uses JVM (Java vitrual machine),  and also can be compiled to JavaScript source code or use the LLVM compiler infrastrucutre. As
+Well can use any of the Newer IDE including (Eclipse, Android studio , Intelij and Command Line). 
 
 ## About the standard library
 
@@ -50,7 +58,7 @@ community written in the language._
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+The style of programming supported by the language: functional vs procedural programming:
+> - Kotlin has functional and procedural programming features. 
 
 
