@@ -14,6 +14,7 @@ History:
 > - Created by Jetbrains the founders of intelij, Kotlin was founded in 2012 
 > - Name "Kotlin" comes from the island near St.Petersburg. 
 > - One of the goals was to have a compile time that can rival Java
+
 Interesting features:
 > - Kotlin is completely open source
 > - No Runtime overhead
