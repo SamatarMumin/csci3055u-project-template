@@ -145,7 +145,6 @@ var stri String = "Value"
 The ability to perform meta-programming such as macros:
 > - Kotlin supports meta-programming "like" features, which it inherites through Java
 ```Kotlin
-package com.ruwanka.kotlin.reflections
 
 open class Person(val name: String, var age: Int)
 
