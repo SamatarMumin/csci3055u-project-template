@@ -58,8 +58,7 @@ for(x in 1..10){ //For Loop
 
 ## About the tools
 
-> Java uses JVM (Java vitrual machine),  and also can be compiled to JavaScript source code or use the LLVM compiler infrastrucutre. As
-Well can use any of the Newer IDE including (Eclipse, Android studio , Intelij and Command Line). 
+> Kotlin uses JVM (Java vitrual machine),  and also can be compiled to JavaScript source code or use the LLVM compiler infrastrucutre. As Well can use any of the Newer IDE including (Eclipse, Android studio , Intelij and Command Line). 
 
 ## About the standard library
 
