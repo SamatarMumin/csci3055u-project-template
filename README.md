@@ -164,6 +164,14 @@ private fun printTypeHierarchy(cls: Class<out Any>?) {
 ```
 >- This shows the comprehensive way Kotlin deals with meta programming  
 
+> Symbol resolution and its support for closure
+>-  Kotlins main compiler JVM uses keywords and not identifers. Using Soft keywords as alternative method of identifier.
+Variables in Kotlin also contain global variables Kotlins uses symbol resolutions smilar to java. As variables are described with the keyword var are mutable and val are immutable. (See Syntax for example). 
+
+>Functional programming constructs either as part of the language or supported by the standard library of the runtime.
+>- Using JVM, Kotlin standardly has access to all the functional programming features. Being able to have access to 
+Higher order, Lambda functions Without the needed import.
+
 Scoping rules supported by the language: lexical vs dynamic scoping:
 >Kotlin is a statically typed programming language. Being able to use Lambda functions and being an object oriented programming language,it includes smilar features to java. Having Public, private and protected modifiers. Public being the default modifier for most programs in Kotlin. It supports both types of lexical and dynamic scoping. However, this language is statically typed .Difference between lexical and dynamic scoping is dynamic scooping cares how the code is executed and not writen, causing differnet values for functions. Lexical scoping won't change values after, as they stay static going through the code instead of during the excution. Static  also has faster compile times.
 
