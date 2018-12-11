@@ -65,12 +65,13 @@ for(x in 1..10){ //For Loop
 >- Kotlin standard libary features some of the essential functions needed for programming
 > - Many functions are adappted for java types and methods
 > - Having higher order functions for implementing idoiomatic patterns (Let,apply,use)
-> - an example of this is the apply functions
+> - an example of this is the capitalize and lowercase functions
  ```Kotlin
- stringVariable?.let {
-      nonNullString ->
-      println("The non null string is $nonNullString")
-}
+  var ChangeName = "Sam"
+    if (ChangeName == "Sam" ){
+       ChangeName.capitalize()
+    } else
+    ChangeName.toLowerCase()
  ```
 > - JDK classes also work with Files,IO and threading 
 
@@ -81,7 +82,7 @@ for(x in 1..10){ //For Loop
 >- Supports FXML and code management
 >- Includes built in Rest and JSon client
 >- Very smilar coding style to Java FX
-```
+```Kotlin
 class HelloWorld : View() {
     override val root = hbox {
         label("Hello world")
@@ -89,13 +90,13 @@ class HelloWorld : View() {
 }
 ```
 > Creates a view and label
-```
+```Kotlin
 import javafx.scene.text.FontWeight
 import tornadofx.*
 ```
 > Needed Imports
 
-```
+```Kotlin
 class MyView : View() {
     private val persons = FXCollections.observableArrayList(
             Person(1, "Samantha Stuart", LocalDate.of(1981,12,4)),
