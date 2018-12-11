@@ -9,12 +9,12 @@
 Kotlin uses aggressive type interface, meaning it can tell what type of data a function is using based on the and how its being used.
 This language is very similar to the popular Java.
 >
-# History:
+## History:
 > - Created by Jetbrains the founders of intelij, Kotlin was founded in 2011 
 > - Name "Kotlin" comes from the island near St.Petersburg. 
 > - One of the goals was to have a compile time that can rival Java
 
-# Interesting features:
+## Interesting features:
 > - Kotlin is completely open source
 > - No Runtime overhead
 > - Contains its own Null safety
@@ -118,7 +118,7 @@ class MyView : View() {
 >- All this code and information can be found here https://github.com/edvin/tornadofx
 # Analysis of the language
 
-# The style of programming supported by the language: functional vs procedural programming:
+## The style of programming supported by the language: functional vs procedural programming:
 > - Kotlin has functional and procedural programming features. 
 ```Kotlin
 fun <T : Comparable<T>> List<T>.quickSort(): List<T> = 
@@ -141,7 +141,7 @@ var stri String = "Value"
 ```
 >- example of procedural programming 
 
-# The ability to perform meta-programming such as macros:
+## The ability to perform meta-programming such as macros:
 > - Kotlin supports meta-programming "like" features, which it inherites through Java
 ```Kotlin
 
@@ -163,18 +163,18 @@ private fun printTypeHierarchy(cls: Class<out Any>?) {
 ```
 >- This shows the comprehensive way Kotlin deals with meta programming  
 
-# Symbol resolution and its support for closure
+## Symbol resolution and its support for closure
 >-  Kotlins main compiler JVM uses keywords and not identifiers. Using Soft keywords as alternative method of identifier.
 Variables in Kotlin also contain global variables Kotlins uses symbol resolutions smilar to java. As variables are described with the keyword var are mutable and val are immutable. (See Syntax for example). 
 
-# Functional programming constructs either as part of the language or supported by the standard library of the runtime.
+## Functional programming constructs either as part of the language or supported by the standard library of the runtime.
 >- Using JVM, Kotlin standardly has access to all the functional programming features. Being able to have access to 
 Higher order, Lambda functions Without the needed import.
 
-# Scoping rules supported by the language: lexical vs dynamic scoping:
+## Scoping rules supported by the language: lexical vs dynamic scoping:
 >Kotlin is a statically typed programming language. Being able to use Lambda functions and being an object oriented programming language, it includes similar features to java. Having Public, private and protected modifiers. Public being the default modifier for most programs in Kotlin. It supports both types of lexical and dynamic scoping. However, this language is statically typed. Difference between lexical and dynamic scoping is dynamic scooping cares how the code is executed and not written, causing different values for functions. Lexical scoping won't change values after, as they stay static going through the code instead of during the execution. Static also has faster compile times.
 
-# Strengths of Kotlin:
+## Strengths of Kotlin:
 > - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexibility. Programmers who are trained in Java wouldn't have a problem using Kotlin.
 > -  implementation of Inline arguments for string allowing for easier formatting for the user.
 ```Kotlin
@@ -185,7 +185,7 @@ Higher order, Lambda functions Without the needed import.
 > - Its safer than most languages, not needing NULLpointerExceptions with less errors
 > - Language is new implemented in newer IDE with compliers that detect errors at compile time instead of runtime. Includes lamda expressions and high-order functions.
 
-# Cons of using Kotlin:
+## Cons of using Kotlin:
 >- Slower compilation speed
 >- Doesn't include Namespaces, keeps all the functions and properties at the top level of the file
 >- Doesn't include static modifer, statice attributes are more complex
