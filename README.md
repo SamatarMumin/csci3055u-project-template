@@ -65,10 +65,10 @@ The style of programming supported by the language: functional vs procedural pro
 Strengths of Kotlin:
 > - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexablity. Programmers who are trained in Java wouldn't have a problem using Kotlin.
 > -  implementation of Inline arguments for string allowing for easier formatting for the user.
-```
-    var letterGrade: Char = 'A'
+```Kotlin
+  var letterGrade: Char = 'A'
     println("A is a char : ${letterGrade is Char}" ) //String imporalation
-    ```
+```
 > - Comapartively data classes are represetned in less code compared to other languages Kotlin has better functional programming support, many fuctional concept can be used in more concisely and explict stated.   
 > - Its safer than most languages, not needing NULLpointerExceptions with less errors
 > - Language is new implemented in newer IDE with compliers that detect errors at compile time instead of runtime. Includes lamda expressions and high-order functions.
