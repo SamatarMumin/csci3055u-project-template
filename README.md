@@ -5,21 +5,22 @@
 
 ## About the language
 
-> Kotlin is a statically typed programming language based around java virtual machine. A programming language suited towards Android developers helps for the building of apps.
+> Kotlin is a statically typed programming language based around java virtual machine. A programming language suited towards Android developers helps for the building of apps. An functional language, it has smilarity to other programming languages. This language is very similar to the popular Java. With the given ability to compile javascript.
 Kotlin uses aggressive type interface, meaning it can tell what type of data a function is using based on the and how its being used.
-This language is very similar to the popular Java.
->
+
 ## History:
-> - Created by Jetbrains the founders of intelij, Kotlin was founded in 2011 
+> - Created by Jetbrains the founders of Intelij, Kotlin was founded in 2011 
 > - Name "Kotlin" comes from the island near St.Petersburg. 
 > - One of the goals was to have a compile time that can rival Java
+>- Was officially released for android development in 2017
+>- Created to increase the sale and use of Intelij
 
 ## Interesting features:
 > - Kotlin is completely open source
 > - No Runtime overhead
 > - Contains its own Null safety
 > - Can complie JavaScript
->- Uses Java Class libraries
+>- Uses Java Class libraries and supports other tools
 
 ## About the syntax
 
@@ -39,16 +40,18 @@ fun main(args : Array<String>){
         println("okay cool")
         }
 ```
-
+**
 ``` Kotlin
-//Declaring Variables
-  var myage = 43 //Mutable
-   val ChangeName = "Sam" //Immutable 
+//Loops
+    for(x in 1..10){
+        println(x)
+    } 
 ```
 
 ```Kotlin
-for(x in 1..10){ //For Loop
-    println(x)
+//Arrays
+    var MyArray = arrayOf(2, 4.23 , "Hello")
+    println(MyArray[2])
 }
 ```
 
@@ -119,7 +122,7 @@ class MyView : View() {
 # Analysis of the language
 
 ## The style of programming supported by the language: functional vs procedural programming:
-> - Kotlin has functional and procedural programming features. 
+> - Kotlin has functional and procedural programming features but is heavily favoured as a functional program. 
 ```Kotlin
 fun <T : Comparable<T>> List<T>.quickSort(): List<T> = 
     if(size < 2) this
@@ -144,20 +147,11 @@ var stri String = "Value"
 ## The ability to perform meta-programming such as macros:
 > - Kotlin supports meta-programming "like" features, which it inherites through Java
 ```Kotlin
-
-open class Person(val name: String, var age: Int)
-
-class Manager(name: String, age: Int, var Job: String) : Person(name, age)
+infix fun Double.pwr(exp: Double) = Math.pow(this, exp)
 
 fun main(args: Array<String>) {
-    printTypeHierarchy(Manager::class.java)
-}
-private fun printTypeHierarchy(cls: Class<out Any>?) {
-    var clazz = cls;
-    while (clazz != null) {
-        println(clazz.name)
-        clazz = clazz.superclass as Class<out Any>?
-    }
+   val d = 2.0 pwr 8.0
+   println(d)
 }
 
 ```
