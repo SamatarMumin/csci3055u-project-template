@@ -1,4 +1,4 @@
-# _Your project title_
+# Kotlin
 
 - Samatar Mumin
 - Samatar.mumin@uoit.net
@@ -16,10 +16,18 @@
 
 *Let form*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```Kotlin
+fun main(args : Array<String>){
+ //Declaring variables
+ var myage = 43 
+ var ChangeName = "Sam"
+
+//If Statement
+    if (ChangeName == "Sam" && myage == 43){
+        println("Name is Sam")
+    } else
+        println("okay cool")
+        }
 ```
 
 ## About the tools
