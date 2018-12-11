@@ -5,9 +5,9 @@
 
 ## About the language
 
-> Kotlin is a statically typed programming language based around java virtual machine. A programming languague suited towards Android developers helps for the bulding of apps.
-Kotlin uses aggressive type interferce, meaning it can tell what type of data a function is using based on the and how its being used.
-This language is very smilar to the popular Java.
+> Kotlin is a statically typed programming language based around java virtual machine. A programming language suited towards Android developers helps for the building of apps.
+Kotlin uses aggressive type interface, meaning it can tell what type of data a function is using based on the and how its being used.
+This language is very similar to the popular Java.
 >
 # History:
 > - Created by Jetbrains the founders of intelij, Kotlin was founded in 2011 
@@ -17,7 +17,7 @@ This language is very smilar to the popular Java.
 # Interesting features:
 > - Kotlin is completely open source
 > - No Runtime overhead
-> - Contains own Null safety
+> - Contains its own Null safety
 > - Can complie JavaScript
 >- Uses Java Class libraries
 
@@ -57,13 +57,13 @@ for(x in 1..10){ //For Loop
 
 ## About the tools
 
-> Kotlin uses JVM (Java vitrual machine),  and also can be compiled to JavaScript source code or use the LLVM compiler infrastrucutre. As Well can use any of the Newer IDE including (Eclipse, Android studio , Intelij and Command Line). 
+> Kotlin uses JVM (Java virtual machine), and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. As Well can use any of the Newer IDE including (Eclipse, Android studio, Intelij and Command Line). 
 
 ## About the standard library
 
->- Kotlin standard libary features some of the essential functions needed for programming
-> - Many functions are adappted for java types and methods
-> - Having higher order functions for implementing idoiomatic patterns (Let,apply,use)
+>-  Kotlin standard library features some of the essential functions needed for programming
+> - Many functions are adapted for java types and methods
+> - Having higher order functions for implementing idiomatic patterns (Let,apply,use)
 > - an example of this is the capitalize and lowercase functions
  ```Kotlin
   var ChangeName = "Sam"
@@ -80,7 +80,7 @@ for(x in 1..10){ //For Loop
 >- It allows for functional applications using JVM
 >- Supports FXML and code management
 >- Includes built in Rest and JSon client
->- Very smilar coding style to Java FX
+>- Very similar coding style to Java FX
 ```Kotlin
 class HelloWorld : View() {
     override val root = hbox {
@@ -164,7 +164,7 @@ private fun printTypeHierarchy(cls: Class<out Any>?) {
 >- This shows the comprehensive way Kotlin deals with meta programming  
 
 # Symbol resolution and its support for closure
->-  Kotlins main compiler JVM uses keywords and not identifers. Using Soft keywords as alternative method of identifier.
+>-  Kotlins main compiler JVM uses keywords and not identifiers. Using Soft keywords as alternative method of identifier.
 Variables in Kotlin also contain global variables Kotlins uses symbol resolutions smilar to java. As variables are described with the keyword var are mutable and val are immutable. (See Syntax for example). 
 
 # Functional programming constructs either as part of the language or supported by the standard library of the runtime.
@@ -172,16 +172,16 @@ Variables in Kotlin also contain global variables Kotlins uses symbol resolution
 Higher order, Lambda functions Without the needed import.
 
 # Scoping rules supported by the language: lexical vs dynamic scoping:
->Kotlin is a statically typed programming language. Being able to use Lambda functions and being an object oriented programming language,it includes smilar features to java. Having Public, private and protected modifiers. Public being the default modifier for most programs in Kotlin. It supports both types of lexical and dynamic scoping. However, this language is statically typed .Difference between lexical and dynamic scoping is dynamic scooping cares how the code is executed and not writen, causing differnet values for functions. Lexical scoping won't change values after, as they stay static going through the code instead of during the excution. Static  also has faster compile times.
+>Kotlin is a statically typed programming language. Being able to use Lambda functions and being an object oriented programming language, it includes similar features to java. Having Public, private and protected modifiers. Public being the default modifier for most programs in Kotlin. It supports both types of lexical and dynamic scoping. However, this language is statically typed. Difference between lexical and dynamic scoping is dynamic scooping cares how the code is executed and not written, causing different values for functions. Lexical scoping won't change values after, as they stay static going through the code instead of during the execution. Static also has faster compile times.
 
 # Strengths of Kotlin:
-> - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexablity. Programmers who are trained in Java wouldn't have a problem using Kotlin.
+> - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexibility. Programmers who are trained in Java wouldn't have a problem using Kotlin.
 > -  implementation of Inline arguments for string allowing for easier formatting for the user.
 ```Kotlin
   var letterGrade: Char = 'A'
     println("A is a char : ${letterGrade is Char}" ) //String imporalation
 ```
-> - Comapartively data classes are represetned in less code compared to other languages Kotlin has better functional programming support, many fuctional concept can be used in more concisely and explict stated.   
+> - Comparatively data classes are represented in less code compared to other languages Kotlin has better functional programming support, many functional concept can be used in more concisely and explicit stated.   
 > - Its safer than most languages, not needing NULLpointerExceptions with less errors
 > - Language is new implemented in newer IDE with compliers that detect errors at compile time instead of runtime. Includes lamda expressions and high-order functions.
 
