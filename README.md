@@ -41,13 +41,14 @@ fun main(args : Array<String>){
         }
 ```
 
-``` Declaring variables
+``` Kotlin
+//Declaring Variables
   var myage = 43 //Mutable
-   var ChangeName = "Sam"
+   val ChangeName = "Sam" //Immutable 
 ```
 
-```For Loops
-for(x in 1..10){
+```Kotlin
+for(x in 1..10){ //For Loop
     println(x)
 }
 ```
@@ -120,6 +121,26 @@ class MyView : View() {
 
 The style of programming supported by the language: functional vs procedural programming:
 > - Kotlin has functional and procedural programming features. 
+```Kotlin
+fun <T : Comparable<T>> List<T>.quickSort(): List<T> = 
+    if(size < 2) this
+    else {
+        val pivot = first()
+        val (smaller, greater) = drop(1).partition { it <= pivot}
+        smaller.quickSort() + pivot + greater.quickSort()
+    }
+// Usage
+listOf(2,5,1).quickSort() // [1,2,5]
+```
+>- This is a functional representation of QuickSort obtained https://medium.freecodecamp.org/my-favorite-examples-of-functional-programming-in-kotlin-e69217b39112
+
+```Kotlin
+fun system{
+println("system is running...")
+}
+var stri String = "Value"
+```
+>- example of procedural programming 
 
 The ability to perform meta-programming such as macros:
 > - Kotlin supports meta-programming "like" features, which it inherites through Java
