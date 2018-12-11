@@ -6,12 +6,11 @@
 ## About the language
 
 > Kotlin is a statically typed programming language based around java virtual machine. A programming languague suited towards Android developers helps for the bulding of apps.
-using aggressive type interferce, meaning it can tell what type of data a function is using based on the code and hows its used. 
 Kotlin uses aggressive type interferce, meaning it can tell what type of data a function is using based on the and how its being used.
 This language is very smilar to the popular Java.
 >
 History:
-> - Created by Jetbrains the founders of intelij, Kotlin was founded in 2012 
+> - Created by Jetbrains the founders of intelij, Kotlin was founded in 2011 
 > - Name "Kotlin" comes from the island near St.Petersburg. 
 > - One of the goals was to have a compile time that can rival Java
 
@@ -41,6 +40,20 @@ fun main(args : Array<String>){
         println("okay cool")
         }
 ```
+
+``` Declaring variables
+  var myage = 43 //Mutable
+   var ChangeName = "Sam"
+```
+
+```For Loops
+for(x in 1..10){
+    println(x)
+}
+```
+
+
+
 
 ## About the tools
 
@@ -100,9 +113,9 @@ class MyView : View() {
     }
 }
 ```
-> This creates a simple view interface
+>-This creates a simple view interface
 >-Filling out with the information provided
-> All this code and information can be found here https://github.com/edvin/tornadofx
+>- All this code and information can be found here https://github.com/edvin/tornadofx
 # Analysis of the language
 
 The style of programming supported by the language: functional vs procedural programming:
