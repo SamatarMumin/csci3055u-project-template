@@ -62,6 +62,30 @@ community written in the language._
 The style of programming supported by the language: functional vs procedural programming:
 > - Kotlin has functional and procedural programming features. 
 
+The ability to perform meta-programming such as macros:
+> - Kotlin supports meta-programming "like" features, which it inherites through Java
+```Kotlin
+package com.ruwanka.kotlin.reflections
+
+open class Person(val name: String, var age: Int)
+
+class Manager(name: String, age: Int, var Job: String) : Person(name, age)
+
+fun main(args: Array<String>) {
+    printTypeHierarchy(Manager::class.java)
+}
+private fun printTypeHierarchy(cls: Class<out Any>?) {
+    var clazz = cls;
+    while (clazz != null) {
+        println(clazz.name)
+        clazz = clazz.superclass as Class<out Any>?
+    }
+}
+
+```
+>- This shows the comprehensive way Kotlin deals with meta programming  
+
+
 Strengths of Kotlin:
 > - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexablity. Programmers who are trained in Java wouldn't have a problem using Kotlin.
 > -  implementation of Inline arguments for string allowing for easier formatting for the user.
