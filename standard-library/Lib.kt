@@ -10,7 +10,8 @@ fun main(args : Array<String>) {
     ChangeName.toLowerCase()
 
     val item = listOf(1,2,3,6,7,31,41,62,3)
-    val union = item.union(item)
+    val item2 = listOf(11,21,341,62,7,31,41,62,3)
+    val union = item.union(item2)
     val intersect = item.intersect(item)
     val reverse = item.asReversed()
 
@@ -32,4 +33,3 @@ fun main(args : Array<String>) {
 
    }
     }
-
