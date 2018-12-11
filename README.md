@@ -165,7 +165,7 @@ private fun printTypeHierarchy(cls: Class<out Any>?) {
 >- This shows the comprehensive way Kotlin deals with meta programming  
 
 Scoping rules supported by the language: lexical vs dynamic scoping:
->-
+>Kotlin is a very verstile language when it comes to scooping. Being able to use Lambda functions and being an object oriented programming language,it includes smilar features to java. Having Public, private and protected modifiers. Public being the default modifier for most programs in Kotlin. It supports both types of lexical and dynamic scoping. Difference between lexical and dynamic scoping is dynamic scooping cares how the code is executed and not writen, causing differnet values for functions. Lexical scoping won't change values after, as they stay static 
 
 Strengths of Kotlin:
 > - Kotlin is java-interoperable programming languages. It is consistent with the existing java's tools and framework. Giving users a higher degree of flexablity. Programmers who are trained in Java wouldn't have a problem using Kotlin.
