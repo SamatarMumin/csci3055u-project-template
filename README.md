@@ -40,14 +40,14 @@ fun main(args : Array<String>){
         println("okay cool")
         }
 ```
-**
+*For Loops*
 ``` Kotlin
 //Loops
     for(x in 1..10){
         println(x)
     } 
 ```
-
+*Array*
 ```Kotlin
 //Arrays
     var MyArray = arrayOf(2, 4.23 , "Hello")
